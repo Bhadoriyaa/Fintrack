@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#hero{
+    height: 100%;
+    width: 100%;
+background: linear-gradient(
+    to right,
+    #FDD101 60%,
+    #F8EBC8 40%
+);
+}
+
+#nav img{
+    width: 15%;
+    height: 10%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+#button button{
+    position: absolute;
+    background: transparent;
+     top: 40px;
+    right: 90px;
+     border: none;
+    font-size: 40px;
+    cursor: pointer;
+    width: 5px;
+}
+
+#left{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#p1{
+font-size: large;
+font-weight: 800;
+font-family: "Poppins", sans-serif;
+}
+
+h1{
+    font-size: 90px;
+    font-family: "Montserrat", sans-serif;
+}
+
+p{
+ font-family: "Poppins", sans-serif;
+ font-weight: 300;   
+}
+#img{
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    height: 500px;
+    width: 500px;
+}
+.dots {
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #f4c400;
+  opacity: 0.6;
+}
+
+.dot.active {
+  background: #000;
+  opacity: 1;
+}
+#pokeball{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 83.5%;
+}
+#pokeball img{
+    opacity: 0.5;
+}

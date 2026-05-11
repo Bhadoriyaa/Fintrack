@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#super{
+  position:relative;
+  height:100vh;
+  background:
+  linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)),
+    url('your-image.jpg');
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  
+}
+
+#monkey{
+    height: 20px;
+    width: 20px;
+}
+#img2{
+    top: 13%;
+    left: 33%;
+    position: absolute; 
+    height: 500px;
+    width:500px;
+}
+
+#vision{
+    top: 70%;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    background:#1f1725;
+     border-radius:0 0 50% 50%;
+       content:"";
+
+  position:absolute;
+}
+

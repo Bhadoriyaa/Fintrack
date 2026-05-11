@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#whole{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#left{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(247, 245, 241);
+    position: relative;
+}
+#right{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(234, 57, 17);
+}
+#navbar{
+    font-family:sans-serif;
+    font-weight: 600;
+    font-size: xx-large;
+    margin-left: 40px;
+    margin-top: 40px;
+    position: relative;
+    display: flex;
+}
+
+#button{
+    position: absolute;
+    background:#D8B47A, transparent;
+    padding: 7px 40px;
+    border-radius: 14px;
+    cursor: pointer;
+    margin-left: 240px;
+    margin-top: -35px;
+}
+
+#rightnav{
+    font-family: sans-serif;
+    display: flex;
+    color:aliceblue;
+    justify-content: space-around;
+    margin-top: 40px;
+    cursor: pointer;
+}
+h1{
+    font-family: 'Cormorant Garamond', serif;
+    position: absolute;
+    left:-30px;
+    top: 50%;
+    font-style: italic;
+    transform: rotate(-90deg);
+    margin-left: 60px;
+}
+
+#info{
+    margin-left: 220px;
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    font-family: sans-serif;
+}
+#img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(46%,-50%);
+
+}
+#img img{
+    height: 550px;
+    width: 400px;
+}
+
+h2{
+    font-family: 'Cormorant Garamond', serif;
+    position: absolute;
+    color:azure;
+    top: 25%;
+    right: 10%;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 0.9;
+}
+
+#icon{
+    position: absolute;
+    height: auto;
+    width: 200px;
+    top: 40%;
+    left: 60%;
+    color: antiquewhite;
+}
+#icon img{
+    height: 300px;
+    color: antiquewhite;
+}
+
+#line{
+    height: 160px;
+    width: 4px;
+    background-color: #D8B47A;
+    position: absolute;
+    top: 48%;
+    left: 80%;
+}
+
+#infor{
+    font-size: larger;
+    position: absolute;
+    top: 50%;
+    left: 83%;
+    color: antiquewhite;
+    font-family: 'Cormorant Garamond', serif;
+}
+#first{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 800;
+    margin-top: -30px;
+    margin-left: 23px;
+    position: absolute;
+}
+
+#sec{
+     font-family: 'Cormorant Garamond', serif;
+    font-weight: 800;
+    margin-top: -30px;
+    margin-left: 29px;
+    position: absolute;
+}
+
+#third{
+     font-family: 'Cormorant Garamond', serif;
+    font-weight: 800;
+    margin-top: -30px;
+    margin-left: 29px;
+    position: absolute;
+}
+#dollar{
+position: absolute;
+font-size: xx-large;
+color: antiquewhite;
+top:73%;
+left:71%;
+}
+
+#tick{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    gap: 11px;
+    top: 79%;
+    left: 71%;
+    color: antiquewhite;
+}
+#tick2{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    gap: 11px;
+    top: 82%;
+    left: 71%;
+    color: antiquewhite;
+}
+#fbutton{
+    position: absolute;
+    top: 89%;
+    left: 71%;
+    background-color: antiquewhite;
+    padding: 9px; 
+    border-radius: 9px;
+    width:10%;
+    border: transparent;
+    cursor: pointer;
+}

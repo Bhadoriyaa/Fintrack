@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#hero{
+    height: 100%;
+    width: 100%;
+}
+#hero img{
+    height: 100%;
+    width: 100%;
+}
+
+
+#nav{
+    display: flex;
+    position: absolute;
+    top:1px;
+}
+
+#nav img{
+    height: 170px;
+    width: 190px;
+}
+#menu{
+    gap: 30px;
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 700px;
+    color:azure;
+    transition: 0.3 ease;
+}
+#menu button{
+    background: transparent;
+    color: azure;
+    border: 0cap;
+    cursor: pointer;
+}
+button:hover{
+    gap: 2px;
+    text-decoration:underline;
+    text-decoration-color: brown;
+}
+
+#center{
+    position: absolute;
+    top: 10px;
+    left: -100px;
+}
+
+#left img{
+    top: 50px;
+    left: 50px;
+    width: 50%;
+    height: 50%;
+}
+#content{
+    position: relative;
+    left: 13%;
+    top: -150px;
+    color:floralwhite;
+    font-weight: 100;
+}
+#button{
+    display: flex;
+    gap: 50px;
+    position: relative;
+    left: 13%;
+    top: -120px;
+}
+#btn1{
+    padding: 9px 11px;
+     border-radius:14px;
+     background:linear-gradient(
+    to right,
+    #ff007a,
+    #ff8c00
+  );
+  border: none;
+  cursor: pointer;
+}
+#btn2{
+     padding: 9px 11px;
+     border-radius:14px;
+     border:1px solid #ff007a;
+     background: transparent;
+     color: azure;
+     cursor: pointer;
+     text-underline-offset: none;
+}
+#btn1 :hover{
+    text-decoration: none;
+    color: white;
+    transform: scale(1.2);
+}
+
+#right{
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    height: 10%;
+    width: 35%;
+
+}
+#social-icons{
+    position: absolute;
+    right: 10px;
+    top: 250%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+#social-icons a{
+    color: #ff2f7d;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+#social-icons a:hover{
+    color: white;
+    transform: scale(1.2);
+}
+
+.bottom-grid{
+    position: absolute;
+    bottom: 40px;
+    left: 10%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    background-color: #430925;
+    border-radius: 20px;
+}
+
+.card{
+    position: relative;
+    height: 180px;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;    
+    left: 0%;
+    border-color: black;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border: white;
+}
+
+.card button{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+
+    background: rgba(255,255,255,0.2);
+    color: white;
+    backdrop-filter: blur(5px);
+
+    cursor: pointer;
+}
+
+#img1{
+    background-color: rgb(228, 100, 134);
+}

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+h1{
+  color: aqua;
+  text-align: center;
+}
+
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    padding-top: 20px;
+}
+
+#inner{
+     height: 100px;
+    width: 100px;
+    background-color: royalblue;
+    margin-left: 20px;
+    padding-top: 20px;
+}
